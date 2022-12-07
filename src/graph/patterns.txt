@@ -1,0 +1,40 @@
+1. Connected components
+2. Graph on grids
+  2.1 Number of island
+  2.2 Flood fill
+  2.3 Rotten oranges
+  2.4 Distance of the nearest cell having 1
+  2.5 Surrounded regions, fill o's with x
+  2.6 Number of Enclaves
+3. Cycle detection
+  3.1 in undirected graph
+  3.2 in directed graph
+4. Bipartite graph
+  4.1 can graph be colored with 2 different colors such that 2 adjacent nodes should have diff colors?
+  4.2 graph cycle is of odd length or even length?
+5. Topological sorting
+  5.1 using DFS (using stack)
+  5.2 using BFS (Kahn's algo)
+  5.3 course schedule I
+  5.4 course schedule II
+  5.5 find eventual safe states
+  5.6 Alien dictionary
+  5.7 Shortest path
+6. Shortest path (from source node to all other nodes)
+  6.1 in undirected graph
+    - Using regular Queue (use for non-weighted graph as its efficient)
+    - Using Priority Queue (Dijkstra Algo)
+  6.2 in directed graph
+    - Using regular Queue (use for non-weighted graph as its efficient)
+    - Using Priority Queue (Dijkstra Algo)
+    - Using Topological sorting (for DAG only)
+  6.3 print shortest path from source to destination
+  6.4 shortest path in binary maze
+  6.5 Cheapest flights with at max K stops
+7. Disjoint Set
+  7.1 Min spanning tree
+  7.2 Number of provinces
+  7.3 Make network connected with minimum operations
+  7.4 Accounts merge
+  7.5 Number of island2 / Online queries
+  7.6 Largest island
