@@ -16,3 +16,4 @@
 7. Tree is symmetrical or not
 8. Path from root to given node
 9. Lowest Common Ancestor (LCA)
+10. Maximum width of tree
