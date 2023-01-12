@@ -18,3 +18,4 @@
 9. Lowest Common Ancestor (LCA)
 10. Maximum width of tree
 11. All Nodes at distance K from the given node
+12. Time taken to burn a tree
