@@ -11,11 +11,11 @@ public class LevelOrder {
     public static void main(String[] args) {
         Tree.Node root = Tree.create(new Integer[]{2, 1, 3, null, 4, null, 5});
 
-        List<Integer> result = levelOrder(root);
+        List<Integer> result = traverse(root);
         System.out.println(result);
     }
 
-    private static List<Integer> levelOrder(Tree.Node root) {
+    public static List<Integer> traverse(Tree.Node root) {
         if (root == null) {
             return null;
         }

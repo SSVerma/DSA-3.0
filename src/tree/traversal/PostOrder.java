@@ -4,7 +4,6 @@ import tree.Tree;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class PostOrder {
     public static void main(String[] args) {
@@ -12,6 +11,10 @@ public class PostOrder {
 
         List<Integer> result = postorder(root, new ArrayList<>());
         System.out.println(result);
+    }
+
+    public static List<Integer> traverse(Tree.Node node) {
+        return postorder(node, new ArrayList<>());
     }
 
     private static List<Integer> postorder(Tree.Node node, List<Integer> result) {

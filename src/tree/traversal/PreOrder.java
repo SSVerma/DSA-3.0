@@ -14,7 +14,11 @@ public class PreOrder {
         System.out.println(result);
     }
 
-    public static List<Integer> preOrder(Tree.Node node, List<Integer> result) {
+    public static List<Integer> traverse(Tree.Node node) {
+        return preOrder(node, new ArrayList<>());
+    }
+
+    private static List<Integer> preOrder(Tree.Node node, List<Integer> result) {
         if (node == null) {
             return result;
         }
