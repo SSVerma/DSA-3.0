@@ -23,3 +23,6 @@
     13.1 Using Inorder and Preorder arrays
     13.2 Using Inorder and Postorder arrays
 14. Serialization and Deserialization of tree
+15. BST
+ 15.1 Check if element exists in BST
+ 15.2 Find Ceil or Floor of given number
