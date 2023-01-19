@@ -13,6 +13,10 @@ public class InOrder {
         System.out.println(result);
     }
 
+    public static List<Integer> traverse(Tree.Node node) {
+        return inorder(node, new ArrayList<>());
+    }
+
     private static List<Integer> inorder(Tree.Node node, List<Integer> result) {
         if (node == null) {
             return result;

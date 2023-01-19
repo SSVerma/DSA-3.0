@@ -26,3 +26,8 @@
 15. BST
  15.1 Check if element exists in BST
  15.2 Find Ceil or Floor of given number
+ 15.3 Check if given Binary tree is BST or not
+ 15.4 Insert node in BST
+ 15.5 Longest Common Ancestor
+ 15.6 Kth smallest number
+ 15.7 Inorder successor
