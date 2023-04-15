@@ -1,0 +1,13 @@
+1. Rotated sorted array
+ a) find given target index - array does not contain duplicates
+ b) find given target index - array may contain duplicates
+ c) min / max element - array does not contain duplicates
+ d) min / max element - array may contain duplicates
+
+2. Search in sorted array of Unknown size
+3. First bad version
+4. Search for a range
+5. Find peak element
+6. Find K closest element to x
+7. Search Insert position / Find floor
+8. Peak element in mountain array

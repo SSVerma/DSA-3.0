@@ -1,0 +1,40 @@
+- overlapping sub-array
+Fixed size window
+- create window of required size
+- do operation
+- slide the window (remove elements from start and add at the end)
+
+
+Find sub-array of size k such that sum of sub-array is max.
+k = 3
+[1, 2, 3, 4, 5, 6, 7, 8]
+--------
+[1, 2, 3, 4, 5, 6, 7, 8]
+    -------
+[1, 2, 3, 4, 5, 6, 7, 8]
+       -------
+
+Dynamic size window
+- create window until constraints satisfies
+- do operation
+- reduce window size until constraints violets
+
+Find min length sub-array such that sum of sub-array is at least k
+
+k = 7
+[1, 2, 3, 4, 5, 6]
+------------
+[1, 2, 3, 4, 5, 6]
+    -------
+[1, 2, 3, 4, 5, 6]
+       ----
+[1, 2, 3, 4, 5, 6]
+          -
+[1, 2, 3, 4, 5, 6]
+          ----
+[1, 2, 3, 4, 5, 6]
+             -
+[1, 2, 3, 4, 5, 6]
+             ----
+[1, 2, 3, 4, 5, 6]
+                -

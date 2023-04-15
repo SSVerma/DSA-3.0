@@ -1,0 +1,5 @@
+Fixed:
+    1. Maximum sum sub-array of size k
+    2. Maximum of all sub-arrays of size k
+    3. First negative integer of all sub-arrays of size k
+    4. Does given string s1 contains permutation of other string s2?
