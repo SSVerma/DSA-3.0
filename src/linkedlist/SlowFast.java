@@ -2,19 +2,10 @@ package linkedlist;
 
 public class SlowFast {
     public static void main(String[] args) {
-        LinkedList.Node first = new LinkedList.Node(1);
-        LinkedList.Node second  = new LinkedList.Node(2);
-        LinkedList.Node third = new LinkedList.Node(3);
-        LinkedList.Node fourth = new LinkedList.Node(4);
-        LinkedList.Node fifth = new LinkedList.Node(5);
+//        LinkedList.Node head = LinkedList.create(new int[]{1, 2, 3, 4, 5});
+        LinkedList.Node head = LinkedList.create(new int[]{1, 2, 3, 4});
 
-        first.next = second;
-        second.next = third;
-        third.next = fourth;
-        fourth.next = fifth;
-//        fifth.next = third;
-
-        boolean result = hasCycle(first);
+        boolean result = isEven(head);
         System.out.println(result);
     }
 
@@ -58,6 +49,25 @@ public class SlowFast {
             }
         }
 
+        return false;
+    }
+
+    /*
+        1 -> 2 -> 3 -> 4 -> 5, fast->next is null, odd
+        1 -> 2 -> 3 -> 4, fast is null, even
+     */
+    private static boolean isEven(LinkedList.Node head) {
+        LinkedList.Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+        }
+
+        if (fast == null) {
+            return true;
+        }
+
+        // fast.next is null
         return false;
     }
 }
